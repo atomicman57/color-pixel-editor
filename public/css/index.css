@@ -1,0 +1,10 @@
+html * {
+    font-family: sans-serif;
+}
+
+.nav {
+    color: #366ffd;
+    background-color: #f6f9ff9f;
+    font-size: 28px;
+    height: 65px;
+}
