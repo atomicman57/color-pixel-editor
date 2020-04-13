@@ -19,8 +19,8 @@ html * {
 }
 
 .slider, .slider-2 {
-    width: 550px;
-    transform: rotate(-90deg) translate(-350px);
+    width: 480px;
+    transform: rotate(-90deg) translate(-240px, 62px);
     -webkit-appearance: none;
     border-radius: 60px;
     position: absolute;
@@ -37,7 +37,7 @@ html * {
 .slider::-webkit-slider-thumb {
     color: rgb(161, 150, 152);
     transform: translate(0, -54px);
-    /* -webkit-appearance: none; */
+    -webkit-appearance: none;
     width: 30px;
     height: 15px;
     clip-path: polygon(100% 0, 0 0, 50% 100%);
@@ -47,9 +47,9 @@ html * {
 .slider-2::-webkit-slider-thumb {
     color: rgb(161, 150, 152);
     transform: rotate(-270deg) translate(54px);
-    /* -webkit-appearance: none; */
-    width: 30px;
-    height: 15px;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 30px;
     clip-path: polygon(0 50%, 100% 100%, 100% 0);
     background-color: white;
 }
@@ -57,4 +57,19 @@ html * {
 .slider:focus, .slider-2:focus {
     box-shadow: none;
     outline: none;
+}
+
+.colorContainer {
+    align-items: center;
+    display: flex;
+    width: 100px;
+    font-size: 15px;
+    height: 45px;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: white;
+    justify-content: center;
+    text-transform: uppercase;
 }
