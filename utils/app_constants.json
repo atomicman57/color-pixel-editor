@@ -1,0 +1,5 @@
+{
+    "SLIDER_SELECTOR"           : "slider",
+    "SLIDER_2_SELECTOR"         : "slider-2",
+    "COLOR_CONTAINER_SELECTOR"  : "colorContainer"
+}

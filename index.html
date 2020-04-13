@@ -1,13 +1,24 @@
 <html>
   <link rel="stylesheet" href="./public/css/index.css">
 <body>
-
   <nav class="nav">
     <div class="container logo">
         pixel editor
     </div>
   </nav>
+
+  <div class="container">
+    <div>
+      <div class="colorContainer" id="colorContainer"></div>
+    </div>
+    <div>
+      <!-- HUE range from 0 - 360, 360. 0 is red, 120 is green, 240 is blue -->
+      <input type="range" class="slider-2" id="slider-2" min="0" max="360">
+      <input type="range" class="slider" id="slider" min="0" max="360">
+    </div>
+  </div>
   
   <script src="./index.js"></script>
+  <style name='updateStyle'></style>
 </body>
 </html>
